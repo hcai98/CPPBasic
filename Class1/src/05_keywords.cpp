@@ -5,6 +5,6 @@ using namespace std;
 
 int main() {
     
-    // int int = 10;
+    // int Day = 10;
     return 0;
 }
