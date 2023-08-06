@@ -18,7 +18,7 @@ int main() {
 
     // print story
     cout << "Roses are " << color << endl;
-    cout << pluralNoun << " are blue" <<endl;
+    cout << pluralNoun <  " are blue" <<endl;
     cout << "I love " << celebrity << endl;
 
     return 0;
