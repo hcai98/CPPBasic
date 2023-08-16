@@ -20,7 +20,9 @@
 *.mod
 *.smod
 
-out/
+out/*
+!out/.gitkeep
+
 # Compiled Static libraries
 *.lai
 *.la
