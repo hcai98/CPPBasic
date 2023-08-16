@@ -33,4 +33,5 @@
 
 *.vscode
 
-out/*
+**/out/*
+!**/out/.gitkeep
