@@ -2,20 +2,20 @@
 using namespace std;
 
 int main() {
+	
+    cout << "space occupied by type char: " << sizeof(char) << endl;
+    cout << "space occupied by type char[10]: " << sizeof(char[10]) << endl;
 
-    int a = 10;
-    long a1 = 10000;
-    long a2 = 10000;
-    int a3[] = {1, 2, 3, 4};
-    string b = "aaaaaaaaaa";
-    char b1[] = "aaaaaaa";
+	cout << "space occupied by type short: " << sizeof(short) << endl;
 
-    cout << sizeof(a) << endl;
-    cout << sizeof(a1) << endl;
-    cout << sizeof(a2) << endl;
-    cout << sizeof(a3) << endl;
-    cout << sizeof(b) << endl;
-    cout << sizeof(b1) << endl;
+	cout << "space occupied by type int: " << sizeof(int) << endl;
+	cout << "space occupied by type int[10]: " << sizeof(int[10]) << endl;
+
+	cout << "space occupied by type long: " << sizeof(long) << endl;
+
+	cout << "space occupied by type long long: " << sizeof(long long) << endl;
+
+	// system("pause");
 
     return 0;
 
