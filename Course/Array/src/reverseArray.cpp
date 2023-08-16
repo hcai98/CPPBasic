@@ -17,9 +17,9 @@ int main()
 
     int *p = arr1;
 
-    // // cout << arr1 << endl;
-    // // cout << *arr1 << endl;
-    // // cout << *(arr1 + 1) << endl;
+    // cout << arr1 << endl;
+    // cout << *arr1 << endl;
+    // cout << *(arr1 + 1) << endl;
 
     int arrSize = sizeof(arr1) / sizeof(arr1[0]);
     int pLeft = 0;
