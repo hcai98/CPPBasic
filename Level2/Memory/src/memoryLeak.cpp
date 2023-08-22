@@ -4,7 +4,7 @@ using namespace std;
 int *func()
 {
     // !!! Potential Memory Leakage
-    int* a = new int(10);
+    int* a = new int(10); // allocate space in heap
     return a;
 }
 
@@ -16,7 +16,7 @@ int main()
     cout << *p << endl;
     cout << *p << endl;
 
-    // release the memory to avoid leakage
+    // release the heap memory to avoid leakage
     delete p;
 
     cout << *p << endl << endl;
