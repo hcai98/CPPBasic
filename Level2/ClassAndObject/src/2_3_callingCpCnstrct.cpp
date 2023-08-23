@@ -23,8 +23,8 @@ public:
     }
     Person(const Person &p)
     {
-        age = p.age;
         cout << "Person's Copy Constructor" << endl;
+        age = p.age;
     }
     ~Person()
     {
@@ -59,15 +59,17 @@ void test2()
 
 Person doWork2()
 {
-    Person p1;
+    Person p1(10);
     cout << "Address of p1: " << &p1 << endl;
+    cout << "p1's age: " << p1.age << endl;
+
     return p1;
 }
 void test3()
 {
     Person p = doWork2();
     cout << "Address of p: " << &p << endl;
-
+    cout << "p's age: " << p.age << endl;
 }
 
 int main()
