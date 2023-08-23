@@ -18,6 +18,13 @@ public:
 
     static int A; // static
     int B;        // non-static
+
+private:
+    static void func2()
+    {
+        cout << "static void func2" << endl;
+    }
+
 };
 
 int Person::A = 100;
@@ -31,6 +38,8 @@ void test1()
 
     // 2. access through class
     Person::func();
+
+    // Person::func2();
 }
 
 int main()
